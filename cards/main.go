@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	cards := []string{"Ace Diamonds", "Ace Spades", newCard()}
+	cards := deck{"Ace Diamonds", "Ace Spades", newCard()}
 	cards = append(cards, "Six Clover")
 
 	fmt.Println(cards)
