@@ -8,9 +8,8 @@ func main() {
 
 	fmt.Println(cards)
 	fmt.Println("------- Learning how to iterate ---------")
-	for i, card := range cards {
-		fmt.Println(i, card)
-	}
+
+	cards.print()
 }
 
 func newCard() string {
