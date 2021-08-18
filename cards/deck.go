@@ -26,3 +26,7 @@ func (d deck) print() {
 		fmt.Println(card)
 	}
 }
+
+func deal(d deck, size int) (deck, deck) {
+	return d[:size], d[size:]
+}
