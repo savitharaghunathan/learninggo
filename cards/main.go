@@ -13,4 +13,5 @@ func main() {
 	fmt.Println("--------- Remaining deck ----------")
 	remainingDeal.print()
 
+	fmt.Println(cards.toString())
 }
